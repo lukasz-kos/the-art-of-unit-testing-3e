@@ -1,0 +1,3 @@
+- Tests are closely related to API. If API change, all tests should be updated
+- One way of dealing with this is Ports and Adapters (Hexagonal architecture).
+- But in general, **avoid importing modules directly to your code.** Instead, use other ways of stubing: function parameters, HOF or constructors and interfaces (OOP approach).
