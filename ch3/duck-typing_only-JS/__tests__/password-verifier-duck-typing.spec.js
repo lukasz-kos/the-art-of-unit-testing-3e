@@ -2,6 +2,7 @@
 const { SUNDAY } = require("../../password-verifier-time00");
 const { PasswordVerifier } = require("../password-verifier-duck-typing");
 
+
 function FakeTimeProvider(fakeDay) {
   this.getDay = function () {
     return fakeDay;
